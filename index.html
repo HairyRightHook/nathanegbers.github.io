@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winsome Waggers</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="nav-header">
+        <img class="nav-header-logo" src="images/logo_revised.png" alt="Winsome Waggers">
+        <nav class="main-nav">
+            <ul class="nav-list">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="products.html" class="nav-link">Products</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+            </ul>
+        </nav>
+    </div>
+    <hr>
+    <div class="wrapper">
+        <div class="grid-container">
+            <div class="slideshow">
+                <img class="slide fade" src="images/Grooming_Puppies_Early.jpg" alt="Woman grooming a dog">
+                <img class="slide fade" src="images/chihuahua-being-groomed.jpg" alt="Chihuahua being groomed" style="display:none;">
+                <img class="slide fade" src="images/color-white-poodle-ears-pink-large.jpg" alt="White poodle with pink ears" style="display:none;">
+                <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+                <button class="next" onclick="changeSlide(1)">&#10095;</button>
+                <div class="bullets">
+                    <a onclick="setSlide(0)" class="current"></a>
+                    <a onclick="setSlide(1)"></a>
+                    <a onclick="setSlide(2)"></a>
+                </div>
+            </div>
+            <div class="grid-item header copy-header-1">
+                <h1>Our Furry Friends Deserve The Best</h1>
+                <p class="mobile-copy">Our dedicated staff is passionate about providing the best care to your pet.</p>
+            </div>
+            <div class="grid-item copy-content-1">
+                <p>Our dedicated staff is passionate about providing the best care to your pet.</p>
+            </div>
+            <div class="grid-item header copy-header-2">
+                <h1>De-stress and Decompress</h1>
+                <p class="mobile-copy">Reward your pet with an indulgent spa package. Exfoliating bath, blow dry, and paw massage included.</p>
+            </div>
+            <div class="grid-item copy-content-2">
+                <p>Reward your pet with an indulgent spa package. Exfoliating bath, blow dry, and paw massage included.</p>
+            </div>
+            <div class="grid-item header subscribe-header">
+                <h1>Stay In Touch</h1>
+            </div>
+            <div class="grid-item header subscribe-form">
+                <p>Sign up for special offers, rescue notifications, and more!</p>
+                <form id="subscribe" method="post">
+                    <input type="email" class="form-text" id="email" placeholder="Enter email address" required>
+                    <input type="submit" class="btn-subscribe" id="subscribe-button" value="Subscribe">
+                </form>
+            </div>
+        </div>
+        <div class="scrollable-content">
+            <div class="scrollable-flex">
+                <div class="scrollable-portrait">
+                    <img src="images/lady.jpg" alt="Marie Crawford">
+                </div>
+                <div class="scrollable-header">
+                    <h3 class="scrollable-title" style="border:none;"><a class="article-link" href="about.html">Meet the Groomer - Marie</a></h3>
+                    <p class="article-preview"><i>“At Winsome Waggers, we treat every pup like family — because they are. Your dog’s happiness is our passion.”</p>
+                        <p>—Marie Crawford, founder</i></p>
+                </div>
+            </div>
+            <div class="scrollable">
+                <div class="scrollable-header">
+                    <h3 class="scrollable-title">What People Are Saying</h3>
+                </div>
+                <div class="scrollable-flex">
+                    <div class="review">
+                        <p class="article-preview"><i>“My pup came home looking fantastic and totally relaxed. Five stars all the way!”
+                            <br>—Ellen, New Port Richey</i></p>
+                        <div style="display:flex;justify-content:center;">
+                            <span>&starf;&starf;&starf;&starf;&starf;</span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <p class="article-preview"><i>“Seagulls are really just government surveillance drones. Anyway, Marie made our dog look amazing!”
+                            <br>—Jim, Sarasota</i></p>
+                        <div style="display:flex;justify-content:center;">
+                            <span>&starf;&starf;&starf;&starf;&starf;</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>&copy; Winsome Waggers, X Virginia St, Dunedin, FL 34698</footer>
+</body>
+</html>

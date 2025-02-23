@@ -375,7 +375,7 @@ footer {
 
 @media (max-width: 761px) {
     .nav-header-logo {
-        width: auto;
+        max-width: 20px;
         height: auto;
     }
 

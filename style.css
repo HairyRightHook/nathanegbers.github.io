@@ -389,7 +389,7 @@ footer {
     }
 
     .grid-container {
-        max-width: 100%;
+        max-width: 50%;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;

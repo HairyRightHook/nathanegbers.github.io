@@ -375,9 +375,6 @@ footer {
 /* Natural break point at 761px */
 
 @media (max-width: 761px) {
-    .wrapper {
-        width: 100vw;
-    }
     .nav-header-logo {
         max-width: 40px;
         height: auto;

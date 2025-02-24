@@ -392,8 +392,9 @@ footer {
         max-width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-template-areas:
+        "slideshow slideshow"
         "slideshow slideshow"
         "header1 header2"
         "header3 form";

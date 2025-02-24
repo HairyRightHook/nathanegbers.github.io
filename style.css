@@ -425,10 +425,12 @@ footer {
 
     .copy-header-1 {
         grid-area: header1;
+        font-size: 0.8em;
     }
 
     .copy-header-2 {
         grid-area: header2;
+        font-size: 0.8em;
     }
 
     .subscribe-header {

@@ -125,6 +125,7 @@ img {
 
 .slideshow {
     grid-area: slideshow;
+    position: relative;
     overflow: hidden;
 }
 

@@ -404,6 +404,7 @@ footer {
     .grid-item {
         align-content: center;
         align-items: center;
+        font-size: 0.5em;
     }
 
     .slideshow {
@@ -436,7 +437,9 @@ footer {
 
     .subscribe-form {
         grid-area: form;
+        /*
         font-size: 0.8rem;
+        */
     }
 
     .copy-content-1,
@@ -447,11 +450,15 @@ footer {
 
     .mobile-copy {
         display: block;
+        /*
         font-size: 1rem;
+        */
     }
 
     .form-text::placeholder {
+        /*
         font-size: 0.8rem;
+        */
     }
 
     .about-two-column-layout {

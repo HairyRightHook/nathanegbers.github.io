@@ -95,11 +95,8 @@ img {
 }
 
 .wrapper {
-    width: 80%;
-    /*
     max-inline-size: 1400px;
     margin-inline: auto;
-    */
     /*
     margin: 10px 20px;
     padding: 0 5vmax 5vmax 5vmax;

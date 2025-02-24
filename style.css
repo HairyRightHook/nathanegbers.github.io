@@ -388,7 +388,7 @@ footer {
     .main-nav ul {
         font-size: 1rem;
     }
-
+/*
     .grid-container {
         max-width: 100%;
         display: grid;
@@ -399,6 +399,12 @@ footer {
         "slideshow slideshow"
         "header1 header2"
         "header3 form";
+    }
+*/
+    .grid-container {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
     }
 
     .grid-item {

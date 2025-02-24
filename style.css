@@ -391,6 +391,7 @@ footer {
     .grid-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
         grid-template-areas:
         "slideshow slideshow"
         "header1 header2"
